@@ -16,5 +16,18 @@ public class MoveBall : MonoBehaviour
     void Update()
     {
         transform.Translate(startDirection);
+        
+        
+        var myNewVector = Vector3.one;
+        var myVeryNewVector = Vector3.one;
+
+        myNewVector = new Vector3(1, 1, 1);
+        
+        var anotherVector = new Vector3(3411, 340, 234);
+
+        var myGameObject = new GameObject();
+        var thisIsTheSameGameObject = myGameObject;
+        
+        myGameObject.transform.Translate(1, 0, 0);
     }
 }
