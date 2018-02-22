@@ -320,6 +320,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 722958779}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1086894784 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4348282016410580, guid: ced95bad6c2ac41aa8aab40a7c64076b,
+    type: 2}
+  m_PrefabInternal: {fileID: 479010580}
 --- !u!1 &1097117089
 GameObject:
   m_ObjectHideFlags: 0
@@ -746,6 +751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Prefab: {fileID: 1414232719102248, guid: ced95bad6c2ac41aa8aab40a7c64076b, type: 2}
+  Parent: {fileID: 1086894784}
 --- !u!4 &1895572068
 Transform:
   m_ObjectHideFlags: 0

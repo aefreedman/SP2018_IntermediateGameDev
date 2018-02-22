@@ -8,6 +8,7 @@ public class InstantiatePrefab : MonoBehaviour
 
     public void Start()
     {
+        // var parent = someothergameobject.transform;
         Instantiate(Prefab, new Vector3(10, 2, 3), Quaternion.identity, Parent);
     }
 }
