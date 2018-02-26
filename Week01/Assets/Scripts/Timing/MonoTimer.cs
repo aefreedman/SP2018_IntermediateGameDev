@@ -3,6 +3,11 @@ using UnityEngine;
 
 namespace Timing
 {
+    /// <inheritdoc cref="ITimer" />
+    /// <summary>
+    /// Each instance of MonoTimer is independent of other MonoTimers
+    /// If you need to pause or remove a MonoTimer, you need to find the correct MonoTimer
+    /// </summary>
     public class MonoTimer : MonoBehaviour, ITimer
     {
         private float _timer;

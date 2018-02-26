@@ -3,6 +3,10 @@ using UnityEngine;
 
 namespace Timing
 {
+    /// <inheritdoc />
+    /// <summary>
+    /// SharpTimers are handled by the TimeLord, or some other object that makes the timers run
+    /// </summary>
     public class SharpTimer : ITimer
     {
         private float _timer;
