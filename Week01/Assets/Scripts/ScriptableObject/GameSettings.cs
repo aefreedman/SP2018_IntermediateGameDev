@@ -1,5 +1,7 @@
 ﻿using System;
 using UnityEngine;
+// ReSharper disable ClassNeverInstantiated.Global
+// ReSharper disable UnassignedField.Global
 
 namespace ScriptableObject
 {
