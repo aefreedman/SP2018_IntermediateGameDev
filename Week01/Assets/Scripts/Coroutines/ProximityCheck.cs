@@ -9,6 +9,7 @@ namespace Coroutines
         private Renderer _renderer;
         public GameObject Target;
         public bool UsePhysicsDetection;
+        public float Distance;
 
         private void Start()
         {
@@ -19,7 +20,7 @@ namespace Coroutines
         private void Update()
         {
             if (!UsePhysicsDetection)
-                _renderer.material.color = Vector2.Distance(transform.position, Target.transform.position) < 1 ? Color.red : Color.grey;
+                _renderer.material.color = Vector2.Distance(transform.position, Target.transform.position) < Distance ? Color.red : Color.grey;
         }
 
         private void OnTriggerEnter2D(Collider2D other)

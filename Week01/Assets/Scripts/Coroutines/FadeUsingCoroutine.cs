@@ -19,6 +19,11 @@ namespace Coroutines
             if (!Input.GetKeyDown(KeyCode.Alpha1))
                 return;
             StopAllCoroutines();
+            
+            // StartCoroutine([Function]);
+            // Ternary operator:
+            // bool ? A : B
+            
             StartCoroutine(_fadeOut ? FadeOut() : FadeIn());
         }
 

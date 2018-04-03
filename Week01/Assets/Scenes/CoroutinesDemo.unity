@@ -571,8 +571,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Prefab: {fileID: 1742719484443258, guid: a1f651cad5ec14eada75eeed2beeb051, type: 2}
-  InstancesToInstantiate: 27
-  Groups: 9
+  InstancesToInstantiate: 1000
+  Groups: 100
 --- !u!1 &1677793738
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,7 +779,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Target: {fileID: 723399887}
-  UsePhysicsDetection: 0
+  UsePhysicsDetection: 1
+  Distance: 1
 --- !u!114 &1725471837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -793,7 +794,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Target: {fileID: 723399887}
   Distance: 2
-  PollingFrequency: 3
+  PollingFrequency: 2
 --- !u!1 &1935655711
 GameObject:
   m_ObjectHideFlags: 0
@@ -822,7 +823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3e96e5ef57c4601883115af492d6e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Smoothing: 10
+  Smoothing: 2.06
 --- !u!212 &1935655713
 SpriteRenderer:
   m_ObjectHideFlags: 0

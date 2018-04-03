@@ -31,7 +31,7 @@ namespace Coroutines
         /// </summary>
         private void FadeIn()
         {
-            for (var f = 0f; f <= 1; f += 0.1f)
+            for (var f = 0f; f <= 1; f += 0.1f * Time.deltaTime)
             {
                 var c = _renderer.material.color;
                 c.a = f;
@@ -43,7 +43,7 @@ namespace Coroutines
 
         private void FadeOut()
         {
-            for (var f = 1f; f >= 0; f -= 0.1f)
+            for (var f = 1f; f >= 0; f -= 0.1f * Time.deltaTime)
             {
                 var c = _renderer.material.color;
                 c.a = f;
